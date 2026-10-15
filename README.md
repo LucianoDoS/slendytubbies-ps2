@@ -59,6 +59,13 @@ Download the **ELF ZIP** or **ISO** from the
 Extract the ELF ZIP to use Free McBoot; open the ISO as a disc in PCSX2.
 SHA-256 checksums and a separate source-only ZIP accompany each release.
 
+**PCSX2: use Fast Boot.** Full Boot, or inserting this homebrew image while
+already inside the BIOS, can show the red "Please insert a PlayStation or
+PlayStation 2 format disc" screen. Stop emulation and start the ISO with Fast
+Boot enabled. On Windows, download `Launch-ISO.cmd` beside the ISO and run it;
+the launcher passes `-fastboot` using your existing PCSX2 BIOS configuration.
+If PCSX2 is installed elsewhere, drag `pcsx2-qt.exe` onto the launcher.
+
 For a visible PCSX2 window, supply your own BIOS:
 
 ```powershell

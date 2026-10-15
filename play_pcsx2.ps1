@@ -71,5 +71,5 @@ $iniText = [regex]::Replace($iniText, '(?m)^Bios\s*=.*$', [System.Text.RegularEx
 $iniText | Set-Content -LiteralPath $iniPath -Encoding utf8
 $bootPath = if ($IsoPath) { (Resolve-Path -LiteralPath $IsoPath).Path } else { (Resolve-Path dist/SLENDY.ELF).Path }
 $logPath = Join-Path $playRoot 'pcsx2-play.log'
-$arguments = @('-nogui', '-datapath', ('"' + $playRoot + '"'), '-logfile', ('"' + $logPath + '"'), ('"' + $bootPath + '"'))
+$arguments = @('-nogui', '-fastboot', '-datapath', ('"' + $playRoot + '"'), '-logfile', ('"' + $logPath + '"'), ('"' + $bootPath + '"'))
 Start-Process -FilePath $Emulator -ArgumentList $arguments -WindowStyle Normal -PassThru | Select-Object Id,ProcessName

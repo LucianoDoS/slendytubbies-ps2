@@ -55,14 +55,19 @@
       "sha256": "9bc165ab887e5a7f57ca0761e9940f89aa26a3209bd41b646e409d448bb82571"
     },
     {
+      "path": "Launch-ISO.cmd",
+      "bytes": 705,
+      "sha256": "4c5fc3b19d7345c869e9a221803cca7ccfba01f3c6ec4405c96f7e560232d6ff"
+    },
+    {
       "path": "LICENSE",
       "bytes": 1087,
       "sha256": "938261dcfbd869e6cd4d4bd3fbc6ea31caa85e8faea864473e446124e3b1922e"
     },
     {
       "path": "play_pcsx2.ps1",
-      "bytes": 2544,
-      "sha256": "a5e404e286267eae99e649bdb7fa048b8785f55744c2d085bbf7691bc6a57656"
+      "bytes": 2557,
+      "sha256": "043652f5f65c199ca6c883158ef6957b6692c464ed003542ee4bf8de778c1d44"
     },
     {
       "path": "ps2/Makefile",
@@ -141,8 +146,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6853,
-      "sha256": "e7092931c689650d2ea101f2cd7b2ae435c08ad59373c7be322a9d111f2e7625"
+      "bytes": 7311,
+      "sha256": "816e5595c502ca02014771f29b7131112c7157e4d8fbbfc728469dd817c4bc6b"
     },
     {
       "path": "third_party/AFL-2.0.txt",
@@ -321,8 +326,8 @@
     },
     {
       "path": "tools/prepare_source.py",
-      "bytes": 3830,
-      "sha256": "af0d1c9cab2b75d3a06a1eaab2352f3d6621fa465d169c528e4125451589a1ae"
+      "bytes": 3848,
+      "sha256": "8300fbd33bda258237b3dc44b6f55c5a6417e4cf81516e84f257da4a07470c6e"
     },
     {
       "path": "tools/prepare_usb.ps1",
