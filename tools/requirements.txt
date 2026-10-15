@@ -1,0 +1,5 @@
+UnityPy==1.25.0
+numpy==2.4.6
+Pillow>=10,<13
+soundfile==0.13.1
+audioop-lts; python_version >= '3.13'
