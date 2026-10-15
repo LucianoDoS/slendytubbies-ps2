@@ -1,0 +1,29 @@
+SLENDYTUBBIES PS2 - THIRD-PARTY NOTICES
+
+Original game content: Slendytubbies V1 by ZeoWorks (https://zeoworks.com/).
+The original game credits are retained in game. Teletubbies characters and
+other game resources remain the property of their respective owners.
+The port's MIT license does not cover these assets or imply redistribution
+rights granted by their owners. This is an unofficial, non-commercial fan port.
+
+PS2SDK: Copyright the PS2DEV contributors; individual source headers retain
+their respective copyright notices. Licensed under the Academic Free License
+version 2.0; a copy is included in AFL-2.0.txt.
+Source: https://github.com/ps2dev/ps2sdk
+Includes the pad, audio, kernel and supporting runtime libraries, and the
+embedded freesio2, freepad and audsrv IOP modules from PS2SDK.
+
+gsKit / dmaKit: Copyright 2004 - Chris "Neovanglist" Gilbert and contributors.
+Licensed under the Academic Free License version 2.0.
+Source: https://github.com/ps2dev/gsKit
+
+The PS2 port links these libraries without modifying their source.
+The source repositories above retain the original attribution notices.
+Compiler runtime: GCC libgcc, GPLv3 with the GCC Runtime Library Exception.
+Source and exception: https://gcc.gnu.org/git.html
+https://www.gnu.org/licenses/gcc-exception-3.1.html
+https://www.gnu.org/licenses/gpl-3.0.html
+
+Offline tools (not console runtime): UnityPy, NumPy, Pillow, SoundFile and
+pycdlib. These are installed separately and are not embedded Python packages.
+See tools/requirements.txt and tools/requirements-release.txt.
