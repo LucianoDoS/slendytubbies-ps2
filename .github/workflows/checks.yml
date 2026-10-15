@@ -1,0 +1,40 @@
+name: Source checks
+
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  portable-code:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+      - name: Compile Python tools
+        run: python -m compileall -q tools
+      - name: Check shell syntax
+        run: for file in tools/*.sh; do bash -n "$file"; done
+      - name: Test steering with memory and undefined-behavior checks
+        run: |
+          gcc -std=c99 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer -Ips2/src ps2/tests/steering.c -lm -o /tmp/steering
+          /tmp/steering
+  powershell:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Check PowerShell syntax and source packaging
+        shell: pwsh
+        run: |
+          Get-ChildItem -Path . -Filter *.ps1 -Recurse | ForEach-Object {
+            $tokens = $null; $errors = $null
+            [System.Management.Automation.Language.Parser]::ParseFile($_.FullName, [ref]$tokens, [ref]$errors) | Out-Null
+            if ($errors.Count) { throw ($errors | Out-String) }
+          }
+          ./tools/prepare_source.ps1
