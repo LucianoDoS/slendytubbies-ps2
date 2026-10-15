@@ -8,7 +8,7 @@ import zipfile
 
 ROOT_FILES = (
     'README.md', 'LICENSE', 'CREDITS.md', 'CONTRIBUTING.md',
-    '.gitignore', '.gitattributes', 'build.ps1', 'play_pcsx2.ps1', 'ps2/Makefile',
+    '.gitignore', '.gitattributes', 'build.ps1', 'play_pcsx2.ps1', 'Launch-ISO.cmd', 'ps2/Makefile',
 )
 SOURCE_DIRS = {
     'ps2/src': {'.c', '.h'}, 'ps2/tests': {'.c', '.h'},
