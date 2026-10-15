@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "license": "MIT for original port contributions; see CREDITS.md",
+  "original_game_assets_included": false,
+  "compiled_game_included": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 131,
+      "sha256": "a5cad94055f785ae8989ac9c348090d005dc76b2eed437c440b9c1a4c2b11201"
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "bytes": 1353,
+      "sha256": "98bfee6dfd572bb5a669a4577938f3d07500ce2589acaa5bb4febfbb7b17e1c5"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 248,
+      "sha256": "672c6208535dd6b01531674e580401bd526663a659464cc294c00077f4e103c5"
+    },
+    {
+      "path": "build.ps1",
+      "bytes": 549,
+      "sha256": "7a9a6fc5bb0da32e9b5a6fdcb75c761887d73ae89d7a45e8c37dc3b30a2f537e"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1440,
+      "sha256": "f6eea243ae15dfa80cf0db760bdde431d7680a1a82ee908e89528740ec27f858"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 1998,
+      "sha256": "47f9987a4e3725c5a4532a26636336eb12207a44a207241cddf2bb2da830cad5"
+    },
+    {
+      "path": "docs/BUILDING.md",
+      "bytes": 3397,
+      "sha256": "23f4c0db28879e70a8d4067ac1f57d4a1fd93a48bca5dc1a7edc45385e4de821"
+    },
+    {
+      "path": "docs/RELEASING.md",
+      "bytes": 2318,
+      "sha256": "cd3a048ce1b9bf2c3e9457e58f44ce8c9d623370a8250eba9ee9c964fc61a781"
+    },
+    {
+      "path": "docs/TESTING.md",
+      "bytes": 4478,
+      "sha256": "c9a58fc60fa1549e11ec5fc32a502f36e2afe2f5b53e827df330083eb865c38b"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 2630,
+      "sha256": "9bc165ab887e5a7f57ca0761e9940f89aa26a3209bd41b646e409d448bb82571"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1087,
+      "sha256": "938261dcfbd869e6cd4d4bd3fbc6ea31caa85e8faea864473e446124e3b1922e"
+    },
+    {
+      "path": "play_pcsx2.ps1",
+      "bytes": 2544,
+      "sha256": "a5e404e286267eae99e649bdb7fa048b8785f55744c2d085bbf7691bc6a57656"
+    },
+    {
+      "path": "ps2/Makefile",
+      "bytes": 2152,
+      "sha256": "a53ed31450c7f02729c2bd6684112c7a3a9e14ac110b597ab831f4106eae2609"
+    },
+    {
+      "path": "ps2/src/audio_voice.h",
+      "bytes": 1465,
+      "sha256": "5445fae8ce017bc9412a213969ccc656f648700e9835e4b493deed9ba2b49701"
+    },
+    {
+      "path": "ps2/src/game.c",
+      "bytes": 26842,
+      "sha256": "48ba96f5a2bc77988f601eee305b9057cbe16c4df12dc240bc5c28a9695a8ebb"
+    },
+    {
+      "path": "ps2/src/game.h",
+      "bytes": 3314,
+      "sha256": "9480eec7934d5f6967b3ecb496e149ca2547d10bd7abe007a4557dc1e6ef9bf0"
+    },
+    {
+      "path": "ps2/src/ps2_main.c",
+      "bytes": 36554,
+      "sha256": "c51504c769e44949154e90925be9d0cbd73694e7c01c301efa7878a2a4a92c6b"
+    },
+    {
+      "path": "ps2/src/render.c",
+      "bytes": 52424,
+      "sha256": "400386c2b52f1c4dda8b68683107b7e536a235c12f79944020a444e8c094f9f1"
+    },
+    {
+      "path": "ps2/src/render.h",
+      "bytes": 1022,
+      "sha256": "2de953edb9b9f621c3c99afeaad71d6f81e5a870e186e2796d34bf4387c8bb1a"
+    },
+    {
+      "path": "ps2/src/steering.h",
+      "bytes": 2998,
+      "sha256": "52eb0fd92710ae214b8d509574f0c7068460f4bb2290965b0a3e1f7842c279f2"
+    },
+    {
+      "path": "ps2/src/terrain_surface.h",
+      "bytes": 2356,
+      "sha256": "c36b6d4053004adcaa64e88436b09d939b2201218b82a3e1b9ea6df1bb758b42"
+    },
+    {
+      "path": "ps2/src/transform.h",
+      "bytes": 1125,
+      "sha256": "3bbcc0838da139c5925764f01e9b8d4a4fb755ec09af49e0c37238399468bf24"
+    },
+    {
+      "path": "ps2/tests/benchmark.h",
+      "bytes": 3427,
+      "sha256": "3c5c7f60aee3acf0f5c9f9ecbd7e753da81d8bdbf145f77d05dc2efdf5cb89d5"
+    },
+    {
+      "path": "ps2/tests/host.c",
+      "bytes": 26907,
+      "sha256": "e403f10671b26bb303df88ba75c959b28db24d0c13ec2eb275f76430d3bc4c40"
+    },
+    {
+      "path": "ps2/tests/menu_route.h",
+      "bytes": 2867,
+      "sha256": "b1cd65bc8d4ad77aa96ddd1f0eca02805da4031525caec7063f936e8b9d520e1"
+    },
+    {
+      "path": "ps2/tests/steering.c",
+      "bytes": 1734,
+      "sha256": "09add53f3de6c0fae2d97b326c577c75a7f33028499fef7463227692ccd57e36"
+    },
+    {
+      "path": "ps2/tests/walk_route.h",
+      "bytes": 1364,
+      "sha256": "7ad5b535ee4eb3fd27286eb1b0a911f246038d6e8d5d094357f30fdb3036dafe"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6853,
+      "sha256": "e7092931c689650d2ea101f2cd7b2ae435c08ad59373c7be322a9d111f2e7625"
+    },
+    {
+      "path": "third_party/AFL-2.0.txt",
+      "bytes": 9005,
+      "sha256": "1ecee940922a6886baccddd9133d17f1ce677d32c5a954fac8e48224f2766fe8"
+    },
+    {
+      "path": "third_party/NOTICES.txt",
+      "bytes": 1548,
+      "sha256": "50b09e30c303c6e644efce4a1d42dac3e773b6b9632308791c8d668984741003"
+    },
+    {
+      "path": "tools/audit_fidelity.py",
+      "bytes": 2167,
+      "sha256": "c3f23bc5cb7f8364fed24c4e3966d883d65dbefc64414b2d2c5a0783ff689038"
+    },
+    {
+      "path": "tools/audit_house.py",
+      "bytes": 5633,
+      "sha256": "7ec593938360b2bdd989c6fbc3ab5d13e8aa814fcc36229553bc66be0515494e"
+    },
+    {
+      "path": "tools/audit_player.py",
+      "bytes": 2129,
+      "sha256": "d9bf92faed495c6385139ac07308362c3a9f7905eb401b657af0751d99bf223c"
+    },
+    {
+      "path": "tools/build_ps2.sh",
+      "bytes": 720,
+      "sha256": "f475cf84dcb1be63de76c163aa9587156c79672f0ada6d9f8e1e3b60a11162a5"
+    },
+    {
+      "path": "tools/check_audio_output.py",
+      "bytes": 2659,
+      "sha256": "3763d7209476959d2786b16dcce45ede341eb5edfe24e5534b304bf9f5aaab0a"
+    },
+    {
+      "path": "tools/check_clusters.py",
+      "bytes": 1367,
+      "sha256": "717c34c708c9a787ed3c1bc63f59cb3ed513a8e5df739c30a40e688b07ebff81"
+    },
+    {
+      "path": "tools/check_collision_grid.ps1",
+      "bytes": 961,
+      "sha256": "456954976fa8ce31c8bb80f2efaa76e3ed25cdb90d7c6251d4fb44868eb847af"
+    },
+    {
+      "path": "tools/check_flashlight.py",
+      "bytes": 1506,
+      "sha256": "d01277a495fba41f956d6a5e1e76361f2616ea7a198b54be709d4b07aad8f47b"
+    },
+    {
+      "path": "tools/check_menu_audio.py",
+      "bytes": 1540,
+      "sha256": "b7b473be00d5f022066306181f6b8db1f021d1993562a2c66fe28712d33f8d78"
+    },
+    {
+      "path": "tools/check_menu_fire.py",
+      "bytes": 2659,
+      "sha256": "f769705dd0aa1f9f4f0995104ef16d45ac6e899162392bc596ccf3882fb458e5"
+    },
+    {
+      "path": "tools/check_native_fidelity.py",
+      "bytes": 2582,
+      "sha256": "cd38c9c96b36de8e48bb6a12fbdc45973e04054e93b3ddcf72b809cd988d4b77"
+    },
+    {
+      "path": "tools/check_native_surfaces.py",
+      "bytes": 2455,
+      "sha256": "b73e9b7fb60b38caf45c38f42c3bcdd8b23a9d12e79fd01da7a193bab9150651"
+    },
+    {
+      "path": "tools/check_native_victory.py",
+      "bytes": 2835,
+      "sha256": "48156f3a0d5c512acf29664dcdb42b2df63e491daabe7319501dfc2f702ca67d"
+    },
+    {
+      "path": "tools/check_noonoo.py",
+      "bytes": 1625,
+      "sha256": "86bc59b056bd07861399c7f6aa37a344063d68d3214bd486333549780bf4b66b"
+    },
+    {
+      "path": "tools/check_performance.py",
+      "bytes": 1956,
+      "sha256": "a75df7a5fd5633e83cc3bfbc077355debae00de9cfb34078f312a5e1c7c48427"
+    },
+    {
+      "path": "tools/check_switch_audio.py",
+      "bytes": 4417,
+      "sha256": "7732068409bab97c296d9224b38f067140802b88c9b0a0e19254dc3c10a8c06c"
+    },
+    {
+      "path": "tools/check_tree_lods.py",
+      "bytes": 1461,
+      "sha256": "0055ddc65dfebc9477752a7ab492ba36282662392458e4d4494042b9ec6015d5"
+    },
+    {
+      "path": "tools/export_assets.py",
+      "bytes": 24575,
+      "sha256": "0d43759658b47405097ccd7b01e267d7d7e5ebb8e35bda682fb76899a082557d"
+    },
+    {
+      "path": "tools/export_audio.py",
+      "bytes": 3311,
+      "sha256": "9f750e800008bff5a5561c3f1b869d855b574ef20500b96961bf3299275d8f06"
+    },
+    {
+      "path": "tools/export_fidelity.py",
+      "bytes": 4102,
+      "sha256": "0a733a510fa2dcebd76d19f9df71c36108f759099295aaa55a84dd736e441cb0"
+    },
+    {
+      "path": "tools/export_menu.py",
+      "bytes": 10979,
+      "sha256": "dc74c0d38879a5bf99af649fe138768df061f3d66d14f41b48d32f6ba68940d5"
+    },
+    {
+      "path": "tools/export_menu_particles.py",
+      "bytes": 2152,
+      "sha256": "52278dc72295a181c0ebd3ad62621f32b2138312c1bc2be7cb91e5aa2f54d396"
+    },
+    {
+      "path": "tools/export_noonoo.py",
+      "bytes": 2537,
+      "sha256": "a28a23f62565596b09fed27fe9eb7274400a762f0724d299ab393fb9727a3faa"
+    },
+    {
+      "path": "tools/export_player_animation.py",
+      "bytes": 4998,
+      "sha256": "52369d09152ad4e71baf769b1866ad94759ab5fb3ec5f700194118e5d9a1ce15"
+    },
+    {
+      "path": "tools/export_player_trees.py",
+      "bytes": 8000,
+      "sha256": "79530fabe66182f6218f85f7a847e1013c179c61b68bb3caaf0981ca369a773e"
+    },
+    {
+      "path": "tools/export_victory.py",
+      "bytes": 6316,
+      "sha256": "346c973e17e9b21bb6e847d77f30092e3bf4e9171cb8abccc4a50eaf8bc0f2aa"
+    },
+    {
+      "path": "tools/export_visuals.py",
+      "bytes": 3303,
+      "sha256": "e53f16d1379e542fd4899ee51447e7fc4b7d2b0080b1d485378d9101b55bc232"
+    },
+    {
+      "path": "tools/extract_unitypackage.py",
+      "bytes": 2329,
+      "sha256": "c61cff7e722bde8c7588a173103b142623d9716dd03101078122bdec162c4bdb"
+    },
+    {
+      "path": "tools/font_atlas.py",
+      "bytes": 558,
+      "sha256": "0ac5f6444cc6a276ca5145717c6dd81d67fd0ca2d7e98426af2dc34a5fe127cc"
+    },
+    {
+      "path": "tools/optimize_meshes.py",
+      "bytes": 2459,
+      "sha256": "e8b9e21423d11054d1c8237bdd5c093144b955a0e892a2321d245274ed6a84a1"
+    },
+    {
+      "path": "tools/prepare_bios.ps1",
+      "bytes": 1069,
+      "sha256": "e92bde540b10d34e5933f7fc335e7c1a419a23b13da0864f216d30b262b59de6"
+    },
+    {
+      "path": "tools/prepare_release.py",
+      "bytes": 7683,
+      "sha256": "d69217e921171ce5ac128a2e53b985ec9cd41fa0eeda4f5b6eb7e195eaec0a26"
+    },
+    {
+      "path": "tools/prepare_source.ps1",
+      "bytes": 293,
+      "sha256": "7f87e53e34e0d669fd9bccfb8711300c9c7e3766694d564e2373052583e3adc3"
+    },
+    {
+      "path": "tools/prepare_source.py",
+      "bytes": 3830,
+      "sha256": "af0d1c9cab2b75d3a06a1eaab2352f3d6621fa465d169c528e4125451589a1ae"
+    },
+    {
+      "path": "tools/prepare_usb.ps1",
+      "bytes": 6502,
+      "sha256": "bdd2e00f180c88092a45005d73cee063d11771acf58ce7588ae3e1d704980640"
+    },
+    {
+      "path": "tools/requirements-audio-qa.txt",
+      "bytes": 143,
+      "sha256": "8537f618aa34b763a45bec62ce33a3a7d111b630cb302a24fc28134f9a6b01c0"
+    },
+    {
+      "path": "tools/requirements-release.txt",
+      "bytes": 16,
+      "sha256": "03673e0dbaf546db1b49d9b2de5e5c6bc00c93c178e02b0cba19446181bde1dc"
+    },
+    {
+      "path": "tools/requirements.txt",
+      "bytes": 100,
+      "sha256": "ad2f157adc3f2d59f3e02599189e9b5f63020108743f056b76b12f91ca86575a"
+    },
+    {
+      "path": "tools/setup_ps2dev.sh",
+      "bytes": 642,
+      "sha256": "e17a71955eb2694a6106e3773e2177f9e2d73a3531d304f2bfad834f85749de2"
+    },
+    {
+      "path": "tools/test_audio_output.py",
+      "bytes": 2208,
+      "sha256": "b0fda93bc26abad06ef23f3fc6bdb7e61b4f7bafbdd5f08dc3aaba783973bcb6"
+    },
+    {
+      "path": "tools/test_host.ps1",
+      "bytes": 568,
+      "sha256": "2e7256219f613236052cf1b9a96957b42f072907747e2594275138ac4e42cf76"
+    },
+    {
+      "path": "tools/test_pcsx2.ps1",
+      "bytes": 8194,
+      "sha256": "f86e4d88fba932bd5ed88b5d13444c2889d41f16a76f5e8683d4e54e9458c106"
+    }
+  ]
+}
